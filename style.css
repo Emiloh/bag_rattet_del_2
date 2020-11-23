@@ -80,13 +80,14 @@
       /* Hide the images by default */
       .mySlides {
         display: none;
+      
       }
       
       /* Next & previous buttons */
       .prev, .next {
         cursor: pointer;
         position: absolute;
-        top: 60%;
+        top: 50px;
         width: auto;
         margin-top: -22px;
         padding: 16px;
