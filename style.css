@@ -12,13 +12,31 @@
     }
      
     .header {
-        padding: 50px;
+        padding: 0.5rem;
         text-align: center;
         background:var(--var3-color);
         color: white;
-        font-size: 30px;
+        font-size: 10px;
       }
-     
+     /* Menu */
+    .nav {
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 100%;
+   }
+  .nav a {
+  float: left;
+  color: var(--black);
+  text-align: center;
+  padding: 3% 4%;
+  text-decoration: none;
+  font-size: 17px;
+  }  
+   .nav a:hover {
+  background-color: var(--grey2);
+  color: var(--black);
+}
 
 
      
