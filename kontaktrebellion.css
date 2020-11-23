@@ -1,0 +1,78 @@
+/*Lavet af Henriette*/
+* {
+    margin: 0;
+    padding: 0;
+    }
+:root {
+    --black: #000;
+    --blue: #94A1A6;
+    --grey: rgb(179, 179, 179, 0.8);
+}
+body {
+    font-family: 'Merriweather', serif;
+    background-color: var(--blue);
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--black);
+    margin-top: 1rem;
+}
+.contact {
+    font-size: 23px;
+    text-align: center;
+}
+.logo {
+    height: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+.header1 {
+    text-decoration: none;
+}
+
+/*Grey color box*/
+.info {
+    background-color: var(--grey);
+    height: 42rem;
+    padding: 3rem 0rem 0rem;
+}
+h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.infotext1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 35px;
+}
+.infotext2 {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 20px;
+    line-height: 35px;
+}
+/*Google maps*/
+.gmaps {
+    margin-top: 2rem;
+}
+iframe {
+    height: 10rem;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*Google maps end*/
+footer {
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 17px;
+    margin-top: 1rem;
+}
