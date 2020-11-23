@@ -10,18 +10,24 @@
         --var3-color:#122126;
         opacity: var(--var-color);
     }
-     
+    h1 {
+      font-family: 'Krona One', sans-serif;
+      font-weight: lighter;
+      padding: 0px 0px 0.3% 64%;
+    }
+    
     .header {
         padding: 0.5rem;
         text-align: center;
         background:var(--var3-color);
         color: white;
         font-size: 10px;
+        font-family: 'Krona One,' sans-serif;
       }
      /* Menu */
     .nav {
     overflow: hidden;
-    margin-left: 100px;
+    margin-left: 600px;
     margin-top: 10px;
     width: 100%;
    }
@@ -105,7 +111,7 @@
       .text {
         color:var(--var2-color);
         font-size: 25px;
-        padding: 6rem;
+        padding: 7rem;
         margin: 0,5rem;
         position: absolute;
         bottom: 8px;
@@ -166,6 +172,11 @@
         font-size: 50px;
       }
     
+    footer {
+      margin:5px;
+      padding: 5px;
+      font-size: 20px;
+    }
     
     
     @media screen and (max-width: 1920px) {
