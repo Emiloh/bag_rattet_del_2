@@ -58,9 +58,13 @@
       border-color: #000;
       padding-bottom:35px;
       margin-top:10px;
+      line-height: 1.2rem;
       font-family: 'Krona One,' sans-serif;
-      font-weight: bold;
+     
       
+     }
+     h3 {
+      font-weight: bold; 
      }
      
 
@@ -75,7 +79,8 @@
       /* Hide the images by default */
       .mySlides {
         display: none;
-      
+       border-radius: 5px;
+       border-width: 100%;
       }
       
       /* Next & previous buttons */
@@ -180,6 +185,6 @@
     
     @media screen and (max-width: 1920px) {
         body {
-          background-color:var(--primary-color);
+          background-color: var(--primary-color);
         }
       }
