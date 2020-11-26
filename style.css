@@ -64,7 +64,8 @@
       
      }
      h3 {
-      font-weight: bold; 
+      font-weight: bold;
+      font-family: 'Krona One,' sans-serif; 
      }
      
 
@@ -187,6 +188,6 @@
     
     @media screen and (max-width: 1920px) {
         body {
-          background-color: var(--primary-color);
+          background-color: var(--secondary-color);
         }
       }
