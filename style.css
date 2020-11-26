@@ -13,7 +13,11 @@
     h1 {
       font-family: 'Krona One', sans-serif;
       font-weight: lighter;
-      padding: 0px 0px 0.3% 64%;
+      text-align: right;
+      margin-bottom: 0.2rem;
+      padding: 0rem 5rem;
+      float: right;
+      
     }
     
     .header {
@@ -27,10 +31,10 @@
      /* Menu */
     .nav {
     overflow: hidden;
-    margin-left: 600px;
-    margin-top: 10px;
+    margin-left: 453px;
+    margin-bottom: -35px;
     width: 100%;
-    font-family: 'Krona One,' sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
    }
   .nav a {
   float: left;
@@ -40,7 +44,7 @@
   text-decoration: none;
   font-size: 17px;
   font-weight: bold;
-  font-family: 'Krona One,' sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   }  
    .nav a:hover {
   background-color: var(--grey2);
@@ -52,14 +56,10 @@
      .info {
       position: relative;
       text-align: justify;
-      border-radius: bottom;
-      border-style: solid;
-      border-width: 0.3rem;
-      border-color: #000;
-      padding-bottom:0.5rem;
+     padding-bottom:0.5rem;
       margin-top:0.5rem;
       line-height:3rem;
-      font-family: 'Krona One,' sans-serif;
+      font-family: 'Noto Sans JP', sans-serif;
      
       
      }
@@ -67,7 +67,7 @@
       font-weight: bold;
       font-family: 'Krona One,' sans-serif; 
      }
-     
+    
 
     
       /* Slideshow container */
@@ -75,13 +75,13 @@
         max-width: 1000px;
         position: relative;
         margin: auto;
+      
       }
       
       /* Hide the images by default */
       .mySlides {
         display: none;
-       border-radius: 5px;
-       border-width: 100%;
+       
       }
       
         
@@ -116,7 +116,7 @@
       
       /* Caption text */
       .text {
-        color:#f2f2f2;
+       
         font-size: 25px;
         padding: 0.5rem;
         margin: 0.2rem;
@@ -128,10 +128,11 @@
       
       /* Number text (1/3 etc) */
       .numbertext {
-        color: #f2f2f2;
+        color:var(--var3-color);
         font-size: 12px;
         padding: 8px 12px;
         position: absolute;
+        font-weight: bold;
         top: 0;
       }
       
@@ -151,38 +152,53 @@
         background-color: #717171;
       }
       
-      /* Fading animation */
-      .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-      }
+  
+    
       
-      @-webkit-keyframes fade {
-        from {opacity: 4}
-        to {opacity: 2}
-      }
       
-      @keyframes fade {
-        from {opacity: 4}
-        to {opacity: 3}
-      }
-      .button {
-        background-color: var(--var3-color) ;
-        border-radius: 10rem;
-        color:var(--var3-color) ;
-        padding: 30px 32px;
+      
+      .fa {
+        padding:15px;
+        font-size: 30px;
+        width: 2.5%;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
-        font-size: 50px;
+        position: relative;
+        bottom: 50px;
+      }  
+      /* Hover effect */
+      .fa:hover {
+        opacity: 0.9;
+      }  
+       /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: var(--white);
       }
-    
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: var(--white);
+      
+      }
+      /* Instagram */
+      .fa-instagram {
+        background: #d147a3;
+        color: var(--white);
+        
+        
+      }
+      /* Linkedin */
+      .fa-linkedin {
+        background: #0077B5;
+        color: var(--white);
+        
+      }
     footer {
       margin:5px;
       padding: 5px;
       font-size: 20px;
+      font-family:'Krona One,' sans-serif;  
     }
     
     
