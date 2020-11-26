@@ -17,14 +17,14 @@ body {
 h1 {
   font-family: 'Krona One', sans-serif;
   font-weight: lighter;
-  padding: 0px 0px 0.3% 64%;;
+  padding: 0px 0px 0.3% 71%;;
 }
 /* Menu */
 .nav {
   overflow: hidden;
-  margin-left: 453px;
-  margin-top: -75px;
-  width: 28%;
+  margin-left: 141px;
+  margin-top: -70px;
+  width: 45%;
 }
 .nav a {
   float: left;
@@ -104,11 +104,11 @@ h2 {
   font-size: 18px;
 }
 .textunderimg2 {
-  margin-left: 18.7%;
+  margin-left: 15.7%;
   font-size: 18px;
 }
 .textunderimg3 {
-  margin-left: 17.8%;
+  margin-left: 14.2%;
   font-size: 18px;
 }
 video {
@@ -120,7 +120,7 @@ video {
 .fa {
   padding: 15px;
   font-size: 30px;
-  width: 2.5%;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   position: relative;
