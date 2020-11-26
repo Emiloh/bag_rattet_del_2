@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="forside.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>REBELLION</h1>
+<!--Menu-->
+    <div class="nav">
+        <a href="forside.html">Hjem</a>
+        <a href="designogkøb.html">Køb og design</a>
+        <a href="serviceoggarantibysarah.html">Service og garanti</a>
+        <a href="kontakrebellion.html">Kontakt os</a>
+      </div>
+<!-- Slideshow -->
+<div class="slideshow">
+<div class="mySlides fade">
+  <img src="redsuv.png" alt="redsuv" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="blacksuv.png" alt="blacksuv" style="width:100%">
+</div> 
+<div class="mySlides fade">
+  <img src="whitesuv.png" alt="whitesuv" style="width:100%">
+</div>
+<div class="mySlides fade">
+    <img src="greysuv.png" alt="greysuv" style="width:100%">
+  </div>
+</div>
+<!-- The squares -->
+<div style="text-align:center">
+  <span class="square" onclick="currentSlide(1)"></span>
+  <span class="square" onclick="currentSlide(2)"></span>
+  <span class="square" onclick="currentSlide(3)"></span>
+  <span class="square" onclick="currentSlide(4)"></span>
+</div>
+<h2>Udforsk vores nye modeller</h2>
+<div class="row">
+  <div class="column">
+    <img class="suvcolumn" src="horizontalgallery1.png" alt="horizontalgallery1" style="width:100%">
+  </div>
+    <div class="column">
+      <img class="suvcolumn" src="horizontalgallery2.png" alt="horizontalgallery2" style="width:100%">
+    </div>
+    <div class="column">
+      <img class="suvcolumn" src="horizontalgallery3.png" alt="horizontalgallery3" style="width:100%">
+    </div>
+</div>
+<div class="textunderimg">
+  <p class="textunderimg1">Fås som hybrid</p>
+  <p class="textunderimg2">Prøv en Rebellion</p>
+  <p class="textunderimg3">Ny model</p>
+</div>
+<video autoplay loop muted>
+  <source src="presentation.mp4" type="video/mp4">
+  <source src="presentation.ogg" type="video/ogg">
+</video>
+<form action="#.php">
+  <div class="newsletter">
+    <h3>Nyhedsbrev</h3>
+  </div>
+  <div class="newsletter">
+    <input type="text" placeholder="Din e-mailadresse" name="mail" required>
+  </div>
+  <div class="newsletter">
+    <input type="submit" value="Abonnér">
+  </div>
+  </form>
+  <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+  <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+  <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+<footer>
+  <p>© 2020 Rebellion. Alle rettigheder forbeholdes.</p>
+</footer>
+<script src="javascript.js"></script>
+</body>
+</html>

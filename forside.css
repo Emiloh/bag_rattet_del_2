@@ -1,0 +1,189 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+@media screen and (min-width: 1079px) {
+:root {
+    --grey: rgb(148, 161, 166, 0.5);
+    --grey2: rgb(148, 161, 166, 0.2);
+    --white:  #ffffff;
+    --black: #000;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--grey);
+}
+h1 {
+  font-family: 'Krona One', sans-serif;
+  font-weight: lighter;
+  padding: 0px 0px 0.3% 71%;;
+}
+/* Menu */
+.nav {
+  overflow: hidden;
+  margin-left: 141px;
+  margin-top: -70px;
+  width: 45%;
+}
+.nav a {
+  float: left;
+  color: var(--black);
+  text-align: center;
+  padding: 3% 4%;
+  text-decoration: none;
+  font-size: 17px;
+}  
+.nav a:hover {
+  background-color: var(--grey2);
+  color: var(--black);
+}
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+/* Hide images by default */
+.mySlides {
+  display: none;
+}
+/* The squares */
+.square {
+  cursor: pointer;
+  height: 5px;
+  width: 60px;
+  margin: 1% 0.1% 4% 0;
+  background-color: var(--white);
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.square:hover {
+  background-color: var(--grey2);
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* Three images */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.suvcolumn {
+  margin-left: 51%;
+}
+.textunderimg {
+  display: flex;
+}
+.textunderimg1 {
+  margin-left: 12.7%;
+  font-size: 18px;
+}
+.textunderimg2 {
+  margin-left: 15.7%;
+  font-size: 18px;
+}
+.textunderimg3 {
+  margin-left: 14.2%;
+  font-size: 18px;
+}
+video {
+  width: 74%;
+  margin-top: 100px;
+  margin-left: 13%;
+}
+/* Style for icons */
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  bottom: 115px;
+}  
+/* Hover effect */
+.fa:hover {
+  opacity: 0.9;
+}  
+ /* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: var(--white);
+  margin-left: 13%;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: var(--white);
+}
+/* Instagram */
+.fa-instagram {
+  background: #d147a3;
+  color: var(--white);
+}
+/* Linkedin */
+.fa-linkedin {
+  background: #0077B5;
+  color: var(--white);
+}
+h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: lighter;
+  margin-top: 90px;
+}
+/* Newsletter form styling */
+.newsletter {
+  padding: 10px 0px;
+  margin-left: 63%;
+  max-width: 15%;
+  font-size: 19px;
+}
+input[type=text], input[type=submit] {
+  width: 160%;
+  padding: 12px;
+  display: inline-block;
+  border: 1px solid var(--black);
+  box-sizing: border-box;
+}
+input[type=checkbox] {
+  margin-top: 16px;
+}
+/* Abonnér button */
+input[type=submit] {
+  background-color: var(--grey2);
+  color: var(--black);
+  border: none;
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+  }
+footer {
+  margin: 8% 0 3% 12.5%;
+  font-size: 17px;
+}
+}
